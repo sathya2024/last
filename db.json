@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "Userid": 1,
+      "name": "sathya",
+      "email": "sathya@gmail.com",
+      "password": "$2b$10$CLuB4xdOHop/4iUVDhccP.Gy.Y4QklQh2FAMNbU6XNYW67KQ.3bXy",
+      "securityQuestion": "What is your favorite book?",
+      "securityAnswer": "$2b$10$yWdiT/xC.t4tvsATfzYYoulz7k0PjPir7O4RtdaN3Xab8jbaKpuBC"
+    }
+  ],
+  "investments": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "stock",
+      "transactionType": "buy",
+      "stockName": "TCS",
+      "dematAccount": "Zerodha",
+      "purchaseDate": "2025-04-10",
+      "numberOfShares": 20,
+      "brokerage": 0.1,
+      "brokerageType": "%",
+      "purchasePrice": 3200
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "type": "bond",
+      "transactionType": "buy",
+      "fixedIncomeName": "RBI Bond",
+      "investmentDate": "2025-03-15",
+      "investmentAmount": 10000,
+      "couponRate": 7.1,
+      "compoundingFrequency": "Quarterly",
+      "interestType": "Accrued",
+      "maturityDate": "2030-03-15"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "type": "mutualFund",
+      "transactionType": "buy",
+      "schemeName": "HDFC Growth Fund",
+      "folioNumber": "MF123456",
+      "investmentDate": "2025-02-01",
+      "amountType": "Rupees",
+      "amount": 5000,
+      "price": 105
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "type": "goldBond",
+      "transactionType": "buy",
+      "securityName": "SGB April 2025",
+      "purchaseDate": "2025-04-21",
+      "units": 10,
+      "price": 5500,
+      "brokerage": 0.1,
+      "brokerageType": "%",
+      "couponRate": 2.5,
+      "maturityDate": "2031-04-21"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "type": "goldBond",
+      "transactionType": "sell",
+      "securityName": "SGB Jan 2024",
+      "purchaseDate": "2024-01-10",
+      "units": 5,
+      "price": 5400,
+      "brokerage": 0.15,
+      "brokerageType": "%",
+      "couponRate": 2.5,
+      "maturityDate": "2030-01-10"
+    },
+    {
+      "id": "6",
+      "userId": 1,
+      "type": "mutualFund",
+      "transactionType": "sell",
+      "schemeName": "Axis Bluechip Fund",
+      "folioNumber": "MF987654",
+      "investmentDate": "2024-06-01",
+      "amountType": "Rupees",
+      "amount": 3000,
+      "price": 110
+    },
+    {
+      "id": "7",
+      "userId": 1,
+      "type": "bond",
+      "transactionType": "sell",
+      "fixedIncomeName": "NABARD Bond",
+      "investmentDate": "2023-01-01",
+      "investmentAmount": 5000,
+      "couponRate": 6.5,
+      "compoundingFrequency": "Half-Yearly",
+      "interestType": "Cumulative",
+      "maturityDate": "2028-01-01"
+    },
+    {
+      "id": "8",
+      "userId": 1,
+      "type": "stock",
+      "transactionType": "sell",
+      "stockName": "Infosys",
+      "dematAccount": "Upstox",
+      "purchaseDate": "2025-04-05",
+      "numberOfShares": 10,
+      "brokerage": 0.12,
+      "brokerageType": "%",
+      "purchasePrice": 1400
+    },
+    {
+      "id": "9",
+      "userId": 1,
+      "type": "stock",
+      "transactionType": "buy",
+      "stockName": "Reliance",
+      "dematAccount": "Groww",
+      "purchaseDate": "2025-04-18",
+      "numberOfShares": 15,
+      "brokerage": 0.1,
+      "brokerageType": "%",
+      "purchasePrice": 2500
+    },
+    {
+      "id": "10",
+      "userId": 1,
+      "type": "mutualFund",
+      "transactionType": "sell",
+      "schemeName": "SBI Small Cap Fund",
+      "folioNumber": "MF543210",
+      "investmentDate": "2025-04-22",
+      "amountType": "Rupees",
+      "amount": 6000,
+      "price": 120,
+      "redemptionDate": "2025-05-29",
+      "sellAt": "fund",
+      "sellPrice": 1234
+    }
+  ]
+}
